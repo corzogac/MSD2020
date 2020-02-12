@@ -1,14 +1,16 @@
-from bokeh.plotting import figure,output_file,show
+from bokeh.plotting import figure
+from bokeh.io import output_notebook,show
 
 import numpy as np
+x=np.random.randn(1000)
+t=np.arange(len(x))
+y=10*np.sin(t/300)
 
-x=np.random.randn(10)
-y=10*np.sin(x)
 
 #To be able to plot we define first what type of output
-output_file('sine.html')
+output_notebook()
 
 #now we create the figure 
 f=figure(title="simple line example", x_axis_label='x', y_axis_label='y')
-f.line(x,y,legend="Wave")
+f.circle(t,y,size=3,color='navy',legend="Wave",)
 show(f)
