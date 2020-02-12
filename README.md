@@ -33,6 +33,24 @@ git add remote GitServerMSD http....////../ filename.git
 #If you started with an empy github and someone added you as collaborator.
 git pull --allow-unrelated-histories GitServerMSD master
 
-# you add to stage and comit again
+### you add to stage and comit again
 *Putting back all the information after 
+git push GitServerMSD master
+
+
+### to creare a new branch
+git branch <name>
+
+### to work on the 
+git add .
+git comit -m ""
+
+### to merge go back to master with checkout and the run merge
+git checkout master
+git merge plot
+
+
+git comit -m ""
+
+## to bring all back up to the server
 git push GitServerMSD master
