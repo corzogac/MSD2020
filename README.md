@@ -14,6 +14,8 @@ git status
 
 *see what is the currnet log
 git log
+*same but nicer
+git log --all --decorate --oneline --graph
 
 *see which branches do you have
 git branch
