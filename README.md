@@ -54,3 +54,10 @@ git comit -m ""
 
 ## to bring all back up to the server
 git push GitServerMSD master
+
+
+$ git checkout -b topic #Create and checkout new branch
+$ git commit -a -m "New Features" #Commit all the changes
+$ git checkout master #Checkout to Master
+$ git merge topic #Merge new branch "topic"
+$ git branch -d topic #Delete new branch "topic"
