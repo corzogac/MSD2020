@@ -6,3 +6,6 @@ t=np.arange(len(x))
 y=10*np.sin(t/200)
 
 P.TS(t,y)
+
+P.Input()
+
