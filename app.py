@@ -13,6 +13,13 @@ f=figure(title="simple line example", x_axis_label='x', y_axis_label='y')
 
 t=12*12
 Tercer Cambio
+<<<<<<< HEAD
+=======
+
+Tercer Cambio
+
+Cuarto Cambio
+>>>>>>> BranchNivel21
 
 Tercer Cambio
 
