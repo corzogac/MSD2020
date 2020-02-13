@@ -7,12 +7,7 @@ y=10*np.sin(t/200)
 
 P.TS(t,y)
 
+from bokeh.plotting import figure
+from bokeh.io import output_notebook,show
+f=figure(title="simple line example", x_axis_label='x', y_axis_label='y')
 
-#for imaginary
-a=(2+3j)
-
-m=np.linspace(-1,1,1000)
-X1=m
-X2=1j*m
-
-P.Plot(X1,X2)

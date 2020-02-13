@@ -13,6 +13,8 @@ def TS(t,y):
     f.circle(t,y,size=3,color='navy',legend="Wave")
     show(f)
 
-def Plot(x,y):
+
+
+def Pt(x,y):
     f.circle(x,y,size=3,color='navy',legend="Wave")
     show(f)
