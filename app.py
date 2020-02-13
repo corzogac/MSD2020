@@ -11,10 +11,7 @@ from bokeh.plotting import figure
 from bokeh.io import output_notebook,show
 f=figure(title="simple line example", x_axis_label='x', y_axis_label='y')
 
-# This is a comment
-
-
-Probando 1 2 3
+t=12*12
 
 Tercer Cambio
 
